@@ -1,0 +1,17 @@
+[
+  {
+    "id_tratamiento": "trat_001",
+    "id_diagnostico": "diag_001",
+    "tipo_tratamiento": "Quimioterapia",
+    "unidad_atencion": "Clínica Oncológica",
+    "fecha_inicio": "2025-01-20",
+    "fecha_fin": "2025-03-20",
+    "medicamento": "Paclitaxel",
+    "dosis": "80 mg/m²",
+    "frecuencia": "Semanal",
+    "duracion_dias": 60,
+    "observaciones": "Buena tolerancia",
+    "costo_unitario": 25000,
+    "costo_total": 150000
+  }
+]

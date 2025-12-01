@@ -1,0 +1,17 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+#       VITE_API_BASE_URL: http://172.16.1.23:8000
+       VITE_API_BASE_URL: http://200.112.210.163:8000
+#        VITE_API_BASE_URL: http://localhost:8000
+    image: oncoapp/web:dev
+    container_name: oncoapp_web
+    ports:
+      - "8080:3000"
+    restart: unless-stopped
+    # Necesario en Linux para que resuelva host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

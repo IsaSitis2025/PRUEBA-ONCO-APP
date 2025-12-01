@@ -1,0 +1,12 @@
+[
+  {
+    "id_diagnostico": "diag_001",
+    "id_paciente": "pac_001",
+    "tipo_cancer": "Mama",
+    "estado_enfermedad": "Inicial",
+    "fecha_diagnostico": "2025-01-12",
+    "medico_responsable": "Dra. Gómez",
+    "observaciones": "Tumor localizado sin metástasis",
+    "activo": true
+  }
+]

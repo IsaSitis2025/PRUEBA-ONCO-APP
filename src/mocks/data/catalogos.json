@@ -1,0 +1,45 @@
+{
+  "tipos_cancer": [
+    "Mama",
+    "Gástrico",
+    "Colon",
+    "Pulmón"
+  ],
+  "estados_enfermedad": [
+    "Inicial",
+    "Intermedio",
+    "Avanzado"
+  ],
+  "tratamientos": [
+    "Quimioterapia",
+    "Radioterapia",
+    "Inmunoterapia"
+  ],
+  "medicamentos": [
+    "Paclitaxel",
+    "Cisplatino",
+    "Doxorrubicina"
+  ],
+  "unidades_atencion": [
+    "Hospital General",
+    "Clínica Oncológica",
+    "Centro Integral"
+  ],
+  "instituciones": [
+    {
+      "nombre": "Hospital General",
+      "nivel_complejidad": "Alta",
+      "ciudad": "CDMX"
+    },
+    {
+      "nombre": "Clínica Oncológica",
+      "nivel_complejidad": "Media",
+      "ciudad": "Guadalajara"
+    },
+    {
+      "nombre": "Centro Integral",
+      "nivel_complejidad": "Baja",
+      "ciudad": "Monterrey"
+    }
+  ]
+}

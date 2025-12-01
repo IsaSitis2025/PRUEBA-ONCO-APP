@@ -1,0 +1,13 @@
+[
+  {
+    "id": "pac_001",
+    "nombre": "Ana Pérez",
+    "sexo": "F",
+    "fecha_nacimiento": "1985-03-12",
+    "correo": "ana@example.com",
+    "telefono": "5522334455",
+    "direccion": "Av. Salud 123, CDMX",
+    "institucion": "Hospital General",
+    "fecha_ingreso": "2025-01-10"
+  }
+]
